@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+@import url(//db.onlinewebfonts.com/c/89d8fba73b6d10c300478fad02d4871d?family=Touche);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  font-family: Touche !important;
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-weight: 600;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand{
+  font-weight: 600;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-section{
+  height: 100vh;
+  background-color: #1b222b;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.active{
+  border-bottom: 1px solid #5b7cb3;
+}
+.nav-link:hover{
+  border-bottom: 1px solid #5b7cb3;
+}
+.nav-link.btn{
+  border-radius: 0px;
+  font-weight: bold;
+  background-color: #6bc0c9;
+  border-color: #6bc0c9;
+}
+.main{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.light-text{
+  color: #8c8c8c;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.underline{
+  width: 100px;
+  height: 2px;
+  background-color: #6bc0c9;
+}
+p{
+  color:#8c8c8c;
+}
+.compet{
+  background: #f3f3f3;
+}
+.cyan-clr{
+  color: #6bc0c9;
+}
+.dot{
+  width:15px;
+  height:15px;
+  border-radius: 50%;
+  background: #1b222b;
+}
+.bg-gray{
+  background: #ccd6df;
 }
