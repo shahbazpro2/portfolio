@@ -15,7 +15,15 @@ body{
 .navbar-dark .navbar-toggler{
   border-color: transparent !important;
 }
-
+.side-menu{
+  width: 70%;
+  right:0;
+  top:0;
+  bottom: 0;
+  height: 100%;
+  position: fixed;
+  background-color: #6bc0c9;
+}
 .bg-gunmetal{
   background-color: #1b222b;
 }
