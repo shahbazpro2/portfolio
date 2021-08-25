@@ -29,6 +29,7 @@ body{
   border-color: #6bc0c9;
 }
 .main{
+  height: 100vh;
   color: white;
 }
 .light-text{

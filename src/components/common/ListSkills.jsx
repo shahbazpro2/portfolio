@@ -4,10 +4,10 @@ import Dot from "./Dot";
 const ListSkills = ({ title, arr }) => {
   return (
     <div className="row">
-      <div className="col-3">
+      <div className="col-4">
         <small className="cyan-clr">{title}</small>
       </div>
-      <div className="col-9 pt-1">
+      <div className="col-8 pt-1">
         {arr.map((a, index) => {
           return (
             <div key={index} className="row mb-4">

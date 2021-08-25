@@ -12,9 +12,9 @@ function App() {
       <div className="main-section">
         <Header />
         <Main />
-        <About />
-        <Competences />
       </div>
+      <About />
+      <Competences />
     </div>
   );
 }

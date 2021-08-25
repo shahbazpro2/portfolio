@@ -20,12 +20,53 @@ const Competences = () => {
                 arr={[
                   { title: "PHP", value: 4 },
                   { title: "JavaScript", value: 3 },
+                  { title: "HTML", value: 4 },
+                  { title: "CSS", value: 3 },
+                  { title: "Java", value: 2 },
+                  { title: "SQL", value: 3 },
                 ]}
                 title="Languages"
               />
             </div>
-            <div className="col-md-4"></div>
-            <div className="col-md-4"></div>
+            <div className="col-md-4">
+              <ListSkills
+                arr={[
+                  { title: "Symfony", value: 4 },
+                  { title: "Jquery", value: 3 },
+                  { title: "Bootstrap", value: 2 },
+                  { title: "React", value: 2 },
+                ]}
+                title="Frameworks"
+              />
+              <ListSkills
+                arr={[
+                  { title: "MySQL", value: 3 },
+                  { title: "MongoDB", value: 1 },
+                ]}
+                title="Databases"
+              />
+            </div>
+            <div className="col-md-4">
+              <ListSkills
+                arr={[
+                  { title: "REST", value: 4 },
+                  { title: "API", value: 4 },
+                ]}
+                title="Architecture"
+              />
+              <ListSkills
+                arr={[
+                  { title: "Git", value: 4 },
+                  { title: "GitHub", value: 3 },
+                  { title: "Gitlab", value: 3 },
+                ]}
+                title="Version Control"
+              />
+              <ListSkills
+                arr={[{ title: "Docker", value: 3 }]}
+                title="Containerization"
+              />
+            </div>
           </div>
         </div>
       </div>
