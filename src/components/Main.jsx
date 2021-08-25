@@ -5,7 +5,7 @@ import arrow_down from "../assets/images/arrow-down.png";
 const Main = () => {
   return (
     <div className="flex items-center justify-center main">
-      <div className="text-center mt-24">
+      <div className="text-center md:mt-24">
         <h1>Stéphane Rathgeber</h1>
         <div className="mt-4">
           <span className="light-text">Teach Lead Symfony</span>

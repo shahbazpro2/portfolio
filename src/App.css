@@ -12,6 +12,10 @@ body{
 .navbar-brand{
   font-weight: 600;
 }
+.navbar-dark .navbar-toggler{
+  border-color: transparent !important;
+}
+
 .bg-gunmetal{
   background-color: #1b222b;
 }

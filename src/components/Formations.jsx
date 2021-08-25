@@ -5,12 +5,12 @@ import Bar from "./common/Bar";
 const Formations = () => {
   return (
     <div className="bg-mud text-center py-24 relative">
-      <div className="absolute md:right-60 md:top-30">
+      <div className="absolute md:right-60 right-5 md:top-30">
         <img src={cap} alt="skill" />
       </div>
       <h4 className="my-3 font-bold text-3xl">Formations</h4>
       <Bar />
-      <div className="mt-5">
+      <div className="mt-5 px-3">
         <div className="d-flex justify-content-center">
           <h5 className="font-bold me-1">BTS IRIS</h5>- Lycee Blaise Pascal
         </div>

@@ -6,19 +6,19 @@ import arrowRight from "../assets/images/arrow-right.png";
 const Certifications = () => {
   return (
     <div className="bg-gunmetal text-center py-24 relative text-white">
-      <h4 className="my-3 font-bold text-3xl">Compétences</h4>
+      <h4 className="my-3 font-bold text-3xl">Certifications</h4>
       <Bar />
       <div className="container mt-24">
         <div className="row">
-          <div className="col-md-5">
-            <div className="d-flex justify-content-end">
+          <div className="col-md-5 ">
+            <div className="d-flex justify-content-end mb-3">
               <img
                 className="align-self-center me-5"
                 src={open}
                 alt="open classrooms"
               />
               <img
-                className="align-self-center pt-20"
+                className="align-self-center pt-20 hidden md:block"
                 src={arrowRight}
                 alt="arrow right"
               />
