@@ -9,6 +9,7 @@ import Experiences from "./components/Experiences";
 import Formations from "./components/Formations";
 import Certifications from "./components/Certifications";
 import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Formations />
       <Certifications />
       <Contacts />
+      <Footer />
     </div>
   );
 }

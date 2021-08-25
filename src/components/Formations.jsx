@@ -5,7 +5,7 @@ import Bar from "./common/Bar";
 const Formations = () => {
   return (
     <div className="bg-mud text-center py-24 relative">
-      <div className="absolute right-60 top-30">
+      <div className="absolute md:right-60 md:top-30">
         <img src={cap} alt="skill" />
       </div>
       <h4 className="my-3 font-bold text-3xl">Formations</h4>
@@ -19,8 +19,10 @@ const Formations = () => {
         </div>
         <div className="mt-4">
           <div className="d-flex justify-content-center">
-            <h5 className="font-bold me-1">BAC STI Genie Electrotechnique </h5>-
-            Lycee Louis Marchal
+            <h5 className="font-bold me-1">
+              BAC STI Genie Electrotechnique{" "}
+              <span style={{ fontWeight: 400 }}>- Lycee Louis Marchal</span>
+            </h5>
           </div>
           <div className="mt-2">
             <h6 className="light-text">2000 - 2003</h6>

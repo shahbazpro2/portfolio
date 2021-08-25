@@ -6,12 +6,12 @@ import ExpTree from "./common/ExpTree";
 const Experiences = () => {
   return (
     <div className="experience text-center py-24 relative">
-      <div className="absolute left-60 bottom-0">
+      <div className="absolute tree left-20 md:left-60  bottom-0">
         <img src={tree} alt="tree" />
       </div>
       <h4 className="my-3 font-bold text-3xl"> Expériences</h4>
       <Bar />
-      <div className="mt-24">
+      <div className="mt-24 mb-24">
         <div className="container">
           <ExpTree
             data={{

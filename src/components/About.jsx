@@ -6,13 +6,13 @@ const About = () => {
   return (
     <div className="container about my-5">
       <div className="row">
-        <div className="col-md-3 py-5">
+        <div className="col-md-3 md:py-5">
           <div className="h-96 flex text-center align-items-center">
             <img className="w-44 h-44 m-auto" src={dev} alt="computer" />
           </div>
         </div>
         <div className="col-md-9">
-          <div className="flex h-full justify-center align-items-center px-28">
+          <div className="flex h-full justify-center align-items-center md:px-28">
             <div className="text-center">
               <span className="font-bold text-3xl">Qui suis-je ?</span>
               <Bar />

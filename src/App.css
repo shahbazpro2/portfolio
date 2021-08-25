@@ -78,12 +78,13 @@ p{
 }
 
 .exp-box{
-  width: 430px;
+  max-width: 430px;
   margin: 0 auto;
 }
 .form-control{
   border-radius: 20px !important;
   padding-left: 30px !important;
+  border: 1px solid #5b7cb3 !important;
 }
 textarea{
   resize: none !important;

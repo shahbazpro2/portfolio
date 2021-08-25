@@ -6,10 +6,10 @@ import ListSkills from "./common/ListSkills";
 const Competences = () => {
   return (
     <div className="bg-mud text-center py-24 relative">
-      <div className="absolute right-60 top-0">
+      <div className="absolute ms:right-60 right-24 top-0">
         <img src={skill} alt="skill" />
       </div>
-      <h4 className="my-3 font-bold text-3xl">Compétences</h4>
+      <h4 className="md:mt-3  mt-5 mb-3 font-bold text-3xl">Compétences</h4>
       <Bar />
       <div className="mt-5">
         <div className="container">
