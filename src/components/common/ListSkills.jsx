@@ -1,5 +1,5 @@
 import React from "react";
-import Dot from "./Dot";
+import RatingDot from "./RatingDot";
 
 const ListSkills = ({ title, arr }) => {
   return (
@@ -15,7 +15,7 @@ const ListSkills = ({ title, arr }) => {
                 <h6 className="font-bold mb-0 mb-0">{a.title}</h6>
               </div>
               <div className="col-6">
-                <Dot value={a.value} />
+                <RatingDot value={a.value} />
               </div>
             </div>
           );
